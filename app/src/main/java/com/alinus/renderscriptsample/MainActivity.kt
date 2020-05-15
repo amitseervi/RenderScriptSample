@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         loadButton.setOnClickListener {
             val bitmap = BitmapFactory.decodeResource(resources, R.drawable.coffee)
             val asyncTask = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                ImageConvolution(bitmap, imageView)
+                ImageBlur(bitmap, imageView)
             } else {
                 TODO("VERSION.SDK_INT < JELLY_BEAN_MR1")
             }
