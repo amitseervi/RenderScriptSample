@@ -1,8 +1,11 @@
 package com.alinus.renderscriptsample
 
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.renderscript.Allocation
+import android.renderscript.RenderScript
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.concurrent.Executors
 
